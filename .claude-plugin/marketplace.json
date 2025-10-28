@@ -12,7 +12,6 @@
   "plugins": [
     {
       "name": "qa-expert",
-      "displayName": "QA Expert - Comprehensive Testing Toolkit",
       "source": "./plugins/qa-expert",
       "description": "Comprehensive testing toolkit with E2E, unit, integration, and visual testing automation",
       "version": "1.0.0",
@@ -34,7 +33,6 @@
         "playwright",
         "ci-cd"
       ],
-      "categories": ["testing", "quality-assurance", "automation"],
       "agents": ["./agents/qa-expert.md"],
       "mcpServers": [
         "./mcp/playwright-mcp.json",

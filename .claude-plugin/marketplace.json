@@ -1,0 +1,46 @@
+{
+  "name": "claude-code-workflows",
+  "owner": {
+    "name": "Roko",
+    "email": "rokoponjarac2@gmail.com",
+    "url": "https://github.com/Roko03"
+  },
+  "metadata": {
+    "description": "Production-ready workflow optimized for granular installation and minimal token usage",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "qa-expert",
+      "displayName": "QA Expert - Comprehensive Testing Toolkit",
+      "source": "./plugins/qa-expert",
+      "description": "Comprehensive testing toolkit with E2E, unit, integration, and visual testing automation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Roko",
+        "email": "rokoponjarac2@gmail.com",
+        "url": "https://github.com/Roko03"
+      },
+      "homepage": "https://github.com/Roko03/claude-code-plugin",
+      "repository": "https://github.com/Roko03/claude-code-plugin",
+      "license": "MIT",
+      "strict": false,
+      "keywords": [
+        "testing",
+        "qa",
+        "e2e",
+        "automation",
+        "quality",
+        "playwright",
+        "ci-cd"
+      ],
+      "categories": ["testing", "quality-assurance", "automation"],
+      "agents": ["./agents/qa-expert.md"],
+      "mcpServers": [
+        "./mcp/playwright-mcp.json",
+        "./mcp/sequential-thinking-mcp.json",
+        "./mcp/context7-mcp.json"
+      ]
+    }
+  ]
+}
